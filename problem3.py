@@ -7,7 +7,7 @@ def main():
     print(type(hindu_line))
     # hindu_line is a string variable
 
-    encoded_line = hindu_line.encode()
+    encoded_line = hindu_line.encode() # add argument explicitly
     print("The encoded version version will be", encoded_line)
     print(type(encoded_line))
 
